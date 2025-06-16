@@ -41,12 +41,31 @@ a {
 /*-------------------------------------------
   ヘッダー
   -------------------------------------------*/
+.header-Profile{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.menu{
+  display:flex;
+  gap:24px;
+  align-items: center;
+}
+
+menu:hover {
+  opacity: 0.7;
+}
 
 
 /*-------------------------------------------
   メインビジュアル
   -------------------------------------------*/
-
+.main-visual{
+  width:100%;
+  height: 640px;
+  border-radius: 16px;
+}
 
 /*-------------------------------------------
   セクション 共通部分
@@ -56,13 +75,33 @@ a {
 /* -------------------------------------------
   プロフィール
   -------------------------------------------*/
+.profile{
+  display: flex;
+  flex-direction: row;
+}
 
+.profile-image{
+  border-radius: 50%;
+}
 
 /* -------------------------------------------
   記事
   -------------------------------------------*/
 
+.article-section{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px 40px;
+}
+
+.article{
+  display: grid;
+  grid-template-rows:
+}
 
 /*-------------------------------------------
   フッター
   -------------------------------------------*/
+  .footer{
+    
+  }

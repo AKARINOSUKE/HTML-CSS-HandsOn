@@ -7,25 +7,63 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet" href="css/styles.css"> 
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
-
+    <header class="header-Profile">
+      <img src="img/logo.png" alt="logo.ping">
+      <div class="menu">
+        <a href="#id-1">Profile</a>
+        <a href="#id-2">Article</a>
+      </div>
+    </header>
+    <!-- メインビジュアル -->
     <main class="main-content">
-      <!-- メインビジュアル -->
-
-      <!-- プロフィール セクション -->
-
+      <img src="img/main_visual.jpg" alt="メインビジュアル" class="main-visual">
+    <!-- プロフィール セクション --> 
+      <section class="section" id="id-1">
+        <h2 class="section-2"><u>Profile</u></h2>
+        <div class="profile">
+          <img src="img/profile.png" alt="プロフィール画像" class="profile-image">
+          <h3 div class="profile-2">
+            <h3>TARO RARETECH</h3>
+            <p>
+            出身：東京<br>
+            趣味：アプリ開発、散歩（公園を中心に都内を歩き回っています）<br>
+            技術：Python、Django、JavaScript、AWS、GCP<br>
+            主な仕事：マネジメント、バックエンド開発
+          </p>
+          </h3>
+        </div>
+      </section>
       <!-- 記事 セクション -->
-
+      <h2 id="id-2"><u>Articles</u></h2>
+      <div class="article-section">
+        <div class="article"><img src="img/article.jpg"alt="Article1">
+          <h3>記事のタイトル</h3>
+          こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。
+        </div>
+        <div class="article"><img src="img/article.jpg"alt="article2">
+          <h3>記事のタイトル</h3>
+          こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。
+        </div>
+        <div class="article"><img src="img/article.jpg"alt="Article3">
+          <h3>記事のタイトル</h3>
+          こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。
+        </div>
+        <div class="article"><img src="img/article.jpg"alt="Article4">
+          <h3>記事のタイトル</h3>
+          こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。
+        </div>
+      </div>
     </main>
-
     <!-- フッター -->
-
-  </div>
+    <footer class="fotter">
+      &copy;2024 Profile 
+    </footer>
 </body>
 
 </html>
